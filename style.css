@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(164, 13, 13)/*cor de fundo*/;
     margin: 0;
 }
@@ -28,8 +28,8 @@ body{
     text-decoration: none; /*remove sublinhado*/
 }
 .menu a:hover{
-    text-decoration: unset;
-    color:rgb(255, 236, 96)
+    text-decoration: solid;
+    color:rgb(255, 241, 133)
 }
 .sobre{
     background-color: rgb(255, 249, 185); /*Fundo claro para destacar a seção*/
@@ -84,7 +84,7 @@ body{
     max-width: 600px;/*Largura maxima do formulario*/
     margin: 80px auto; /*centraliza horizontallmente e da espaço vertical*/
     background-color: rgb(253, 243, 168);
-    padding: 50px;/*espaçamento interno*/
+    padding: 60px;/*espaçamento interno*/
     border-radius: 10px;/*bordinhas arredondadas*/
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/*sombra suave*/
     text-align: center;/*alinhar textos a esquerda*/}
@@ -92,25 +92,11 @@ body{
 
  .conform-form p {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     font-weight: bold;
  }
  .conform-form inoput,
- .contato-form textarea{
-    width: 100%;/*ocupa toda a largura formulario*/
-    padding: 10px 5px; /*espaço entre campos*/
-    border: 1px solid #ccc; /*borda cinza clara*/
-    border-radius: 5px;
-    font-size: 1em;/*tamanho da fonte*/
- }
- .conform-form button {
-    background-color: #af1c1c;
-    color: #f3dd63;
-    padding: 70px 90px;
-    border-radius: 15px;
-    font-weight: bold;
-    cursor: pointer;
- }
+
  footer{
     background-color: rgb(226, 87, 87);
     color: rgb(0, 0, 0);
@@ -138,18 +124,32 @@ body{
  }
 
  .fotos h5{
-    color:rgba(0, 0, 0, 0.564);/*cor fo título*/
+    color:rgb(0, 0, 0);/*cor fo título*/
     margin-bottom: 20px;/*espaço abaixo do título*/
     font-size: 3em;/*tamanho maiordo texto*/
      text-align: center;
+     background-color: rgb(240, 230, 138);
+     width: 100%; 
 }
  .fotos img{
     width:320px;
     border-radius: 5px;
     box-shadow: 0 5px 15px rgb(225, 164, 164);
-    margin: 0 25px; /*espaço entre os itens*/
+    margin: 0 90px; /*espaço entre os itens*/
     display: inline;/*itens laldo a lado*/
     margin-bottom: 20px;/*espaço abaixo do título*/
  }
-  
+ .container-video{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+ }
+  .meu-video {
+    width: 100%;
+    max-width: 500px;
+    height:350px;
+    object-fit: cover;
+    border-radius: 15px;
+
+  }
  
